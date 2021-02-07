@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+i{
+    padding-top:3.5px;
+}    
+k{
+   
+    padding-top:3px;
+    padding-right:7px;
+}    
+body{
+    overflow-y: hidden;
+    margin:0px;
+    font-family: 'Kaushan Script', cursive;
+}
+#numery{
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 10px;
+    margin-top:10px;
+    margin-left:350px;
+}
+#jeden{
+    width: 100%;
+
+display:flex;
+flex-grow: 3;
+}
+p{
+    color:white;
+    font-size:42px;
+}
+span{
+    color:#ff6781;
+    font-size:65px;
+    font-weight:600;
+}
+#panczek{
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 10px;
+}
+#achrewy{
+    display:flex;
+    flex-grow: 2;
+    padding: 13px;
+    margin-left:420px;
+}
+#zakupy{
+    height: 35px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 6px;
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1,5;
+    padding-top: 12px;
+    padding-left:9px;
+    margin-right:120px;
+    margin-top:7px;
+   
+}
+#h10{
+    height:20px;
+    position: absolute;
+}
+#dwa{
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(231, 236, 156) 0%,rgba(247, 182, 3, 0.993) 100%);
+    opacity: 80%;
+}
+#babcia{
+    position: absolute;
+    top:350px;
+    left: 730px;
+    font-size:50px;
+    
+}
+#glowny{
+display:flex;
+flex-direction: column;
+}
+a{
+    font-size: 25px;
+    text-decoration: none;
+    color:#ff6781;
+    padding:5px;
+}
+a:hover {
+    color:black;
+  
+}
+#przycisk:hover {
+    color:#ff6781;
+    border:2px solid #ff6781;
+  
+}
+#dwa img{
+    width:100%;
+    height:899px;
+    background: linear-gradient(to bottom, rgb(239, 240, 236) 0%,rgba(255, 230, 0, 0.842) 100%);
+    opacity: 50%;
+}
+#przycisk{
+    position: absolute;
+    
+    width: 7vw;         
+    height: 5vh;  
+    left: 46.5vw;    
+    top: 25.5vw;         
+    background-color: unset;        
+     border: 2px solid black;        
+      border-radius: 2px;         
+      font-size: 25px;
+      font-family: 'Kaushan Script', cursive;
+}
